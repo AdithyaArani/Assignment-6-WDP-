@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SignUp/Login Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="register.html">Sign Up</a></li>
+      </ul>
+    </nav>
+    <h1>SignUp Form</h1>
+  </header>
+
+  <main>
+    <form class="basic-form" id="reg-form">
+      <p class="error"></p>
+      <h2>Register</h2>
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username">
+      <br>
+      <label for="pswd">Password</label>
+      <input type="password" name="pswd" id="pswd">
+      <br>
+      <input type="submit" value="Register">
+    </form>
+  </main>
+ 
+  <script src="./scripts/main.js"></script>
+  <script src="scripts/user-script.js"></script>
+</body>
+</html>
